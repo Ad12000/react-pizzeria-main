@@ -5,7 +5,7 @@ Here’s a detailed GitHub README for your **React Pizzeria** project:
 # React Pizzeria 🍕
 A simple, fast, and responsive pizza ordering app built using **ReactJS**, **Tailwind CSS**, and **Redux Toolkit**. With features like real-time menu loading from an API, GPS-based delivery location, and priority order functionality, **React Pizzeria** makes ordering pizza a breeze!
 
-![React Pizzeria Demo](https://github.com/Ad12000/react-pizzeria/blob/main/src/assets/demo1.png)
+![Reacts Pizzeria Demo](https://github.com/Ad12000/react-pizzeria/blob/main/src/assets/demo1.png)
 
 ## 🚀 Features
 - 📜 **Dynamic Pizza Menu**: The menu is loaded from an API, ensuring up-to-date selections.
