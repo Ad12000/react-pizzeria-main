@@ -3,10 +3,10 @@ import Home from "./ui/Home";
 import CreateOrder, {
   action as createOrderAction,
 } from "./features/order/CreateOrder";
-import Menu, { loader as menuLoader } from "./features/menu/Menu";
+import Menu,{ loader as menuLoader } from "./features/menu/Menu";
 import Cart from "./features/cart/Cart";
 
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {createBrowserRouter, RouterProvider } from "react-router-dom";
 import Order, { loader as orderLoader } from "./features/order/Order";
 
 import { action as updateOrderAction } from "./features/order/UpdateOrder";
