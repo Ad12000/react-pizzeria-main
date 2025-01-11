@@ -5,7 +5,7 @@ import { addItem, getCurrentQuantityById } from "../cart/cartSlice";
 import DeleteItem from "../cart/DeleteItem";
 import UpdateItemByQuantity from "../cart/UpdateItemByQuantity";
 
-function MenuItem({ pizza }) {
+function MenuItem({pizza}) {
   const { id, name, unitPrice, ingredients, soldOut, imageUrl } = pizza;
 
   const dispatch = useDispatch();
