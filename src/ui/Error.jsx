@@ -11,6 +11,6 @@ function Error() {
       <LinkButton to="-1">&larr; Go back</LinkButton>
     </div>
   );
-}
+} 
 
 export default Error;
