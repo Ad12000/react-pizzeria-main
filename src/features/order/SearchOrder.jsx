@@ -11,7 +11,7 @@ const SearchOrder = () => {
     if (!query) return;
     navigate(`/order/${query}`);
     setQuery("");
-  }
+  } 
   return (
     <form onSubmit={handleSubmit}>
       {/*on submitting the data on enter we can use form so that on pressing enter(return) we can submit the data and do whatever functionality that we want to use*/}
