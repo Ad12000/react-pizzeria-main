@@ -14,6 +14,6 @@ function OrderItem({ item, isLoadingIngredients, ingredients }) {
       <p className="text-sm italic text-stone-500 capitalize">{isLoadingIngredients ? "loading..." : ingredients.join(" ,")}</p>
     </li>
   );
-}
+} 
 
 export default OrderItem;
