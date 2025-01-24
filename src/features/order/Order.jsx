@@ -9,7 +9,7 @@ import {
 import { useFetcher, useLoaderData } from "react-router-dom";
 import OrderItem from "./OrderItem";
 import { useEffect } from "react";
-import UpdateOrder from "./UpdateOrder";
+import UpdateOrder from "./UpdateOrder"; 
 // const order = {
 //   id: "ABCDEF",
 //   customer: "Jonas",
