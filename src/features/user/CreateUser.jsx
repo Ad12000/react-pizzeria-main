@@ -9,7 +9,7 @@ function CreateUser() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
-  function handleSubmit(e) {
+  function handleSubmit(e) { 
     e.preventDefault();
     if (!username) return;
     dispatch(updateName(username));  //update the value to the redux store storing the value to th redux store
