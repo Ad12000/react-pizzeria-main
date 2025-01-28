@@ -11,7 +11,7 @@ function Menu() {
         <MenuItem pizza={pizza} key={pizza.id} />
       ))}
     </ul>
-  );
+  ); 
 } 
 
 export async function loader() {
